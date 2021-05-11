@@ -9,7 +9,7 @@ maven-dependency:
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct</artifactId>
 			<version>1.3.1.Final</version> 
-	</dependency>```
+	    </dependency>```
 
 
 maven-plugin:
@@ -38,6 +38,7 @@ maven-plugin:
 
 
 annotations:
+
     1. @Mapper
         - This annotaions goes on the interface declarion, this helps spring to consider this interface as map struct interface and mapstruct-processor uses this annotation to generate implementation class at compile time / run time
     
